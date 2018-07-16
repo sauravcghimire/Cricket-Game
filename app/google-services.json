@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1047205126034",
+    "firebase_url": "https://live-cricket-game.firebaseio.com",
+    "project_id": "live-cricket-game",
+    "storage_bucket": "live-cricket-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047205126034:android:3e25e137359a3e9d",
+        "android_client_info": {
+          "package_name": "jio.tv.jiotv.india"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047205126034-3ou7ti5f8b1h86d541noit7un8lksqaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcDXChTlhX-QjOm5Dk1d-YDg1LtqSx4I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

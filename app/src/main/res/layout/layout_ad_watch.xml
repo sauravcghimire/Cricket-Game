@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <com.appsinfinity.fingercricket.customwidget.CustomImageView
+        android:id="@+id/icon_hsw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/web_hi_res_512" />
+
+    <com.appsinfinity.fingercricket.customwidget.AutoResizeTextView
+        android:id="@+id/hsw_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/icon_hsw"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="HOT STARS MOVIES"
+        android:textColor="#526CBC"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <com.appsinfinity.fingercricket.customwidget.AutoResizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hsw_title"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="FOR LATEST ENGLISH, HINDI AND NEPALI MOVIES"
+        android:textColor="#526CBC"
+        android:textSize="24sp" />
+
+</RelativeLayout>

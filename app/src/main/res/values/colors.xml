@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/jio_color</color>
+    <color name="colorPrimaryDark">#9f0303</color>
+    <color name="colorAccent">@color/jio_color</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#e5e400</color>
+    <color name="jio_color">#dc0a03</color>
+    <color name="transparent_black">#88000000</color>
+    <color name="shadow_light_grey">#ececec</color>
+    <color name="colorShadow">#e0e0e0</color>
+    <color name="grey">#8c8888</color>
+    <color name="green">#0d790d</color>
+</resources>

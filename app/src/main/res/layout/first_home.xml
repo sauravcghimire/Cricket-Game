@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jio_color">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/logo_for_home" />
+
+            <com.appsinfinity.fingercricket.customwidget.CNTextView
+                android:id="@+id/international"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/button_green"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="INTERNATIONAL"
+                android:textColor="@color/jio_color"
+                android:textSize="20sp"
+                app:fontName="Radikal_Medium.ttf" />
+
+            <com.appsinfinity.fingercricket.customwidget.CNTextView
+                android:id="@+id/ipl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/international"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/button_green"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="Indian Premier League"
+                android:textAllCaps="true"
+                android:textColor="@color/jio_color"
+                android:textSize="20sp"
+                app:fontName="Radikal_Medium.ttf" />
+
+            <com.appsinfinity.fingercricket.customwidget.CNTextView
+                android:id="@+id/news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/international"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/button_green"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="Cricket News"
+                android:textAllCaps="true"
+                android:textColor="@color/jio_color"
+                android:textSize="20sp"
+                app:fontName="Radikal_Medium.ttf" />
+
+            <com.appsinfinity.fingercricket.customwidget.CNTextView
+                android:id="@+id/highlights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/button_green"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="LIVE and Highlights"
+                android:textAllCaps="true"
+                android:textColor="@color/jio_color"
+                android:textSize="20sp"
+                app:fontName="Radikal_Medium.ttf" />
+
+
+
+            <com.appsinfinity.fingercricket.customwidget.CNTextView
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ipl"
+                android:layout_margin="18dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="EXIT"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

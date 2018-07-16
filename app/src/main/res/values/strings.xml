@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">Hotstar Live Finger Indian Cricket</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_highscore">High Score</string>
+    <string name="action_instruction">Instruction</string>
+    <string name="action_change_team">Change Team</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1760111108410027/3894788844</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-9889866727536939/3220426454</string>
+    <string name="senderId">74683441355</string>
+    <string name="instruction">-Click on the runs buttons you wish to score\n\n- The device will select a number by analyzing your scoring rate at the same time\n\n- Same device and your hand results into wicket\n\n- Each side has 5 wickets amd 5 overs.\n\n- Score more and have fun</string>
+
+    <string-array name="teams">
+        <item>Australia</item>
+        <item>Afganistan</item>
+        <item>Bangladesh</item>
+        <item>England</item>
+        <item>India</item>
+        <item>Nepal</item>
+        <item>Newzealand</item>
+        <item>Pakistan</item>
+        <item>SouthAfrica</item>
+        <item>Srilanka</item>
+    </string-array>
+
+    <string-array name="teams_ipl">
+        <item>Delhi Daredevils</item>
+        <item>Rising Pune Supergiants</item>
+        <item>Kolkata Knight Riders</item>
+        <item>Royal Challengers</item>
+        <item>Mumbai Indians</item>
+        <item>Sunrisers Hyderabad</item>
+        <item>Kings XI Punjab</item>
+        <item>Gujarat Lions</item>
+    </string-array>
+
+    <string-array name="DelhiDaredevils">
+        <item>Quinton De Kock</item>
+        <item>JP Duminy</item>
+        <item>Mayank Agarwal</item>
+        <item>Zaheer Khan</item>
+        <item>Imran Tahir</item>
+        <item>Manoj Tiwari</item>
+        <item>Yubraj Singh</item>
+        <item>Angelo Mathews</item>
+        <item>Albie Morkel</item>
+        <item>Amit Mishra</item>
+    </string-array>
+
+    <string-array name="KolkataKnightRiders">
+        <item>Gautam Gambhir</item>
+        <item>Robin Uthappa</item>
+        <item>Manish Pandey</item>
+        <item>Yusuf Pathan</item>
+        <item>Shakib Al Hasan</item>
+        <item>Andre Russel</item>
+        <item>Piyush Chawla</item>
+        <item>Morne Morkel</item>
+        <item>Umesh Yadav</item>
+        <item>Sunil Narine</item>
+    </string-array>
+
+    <string-array name="RisingPuneSupergiants">
+        <item>Faf Du Plesis</item>
+        <item>Kevin Pietersen</item>
+        <item>Steve Smith</item>
+        <item>MS Dhoni</item>
+        <item>Irfan Pathan</item>
+        <item>R. Ashwin</item>
+        <item>Dwayne Bravo</item>
+        <item>Mohit Sharma</item>
+    </string-array>
+
+    <string-array name="RoyalChallengers">
+        <item>Chrish Gayle</item>
+        <item>Virat Kohli</item>
+        <item>AB De Villiers</item>
+        <item>Shane Watson</item>
+        <item>Harshal PAtel</item>
+        <item>Mandeep Singh</item>
+        <item>Varun Aaron</item>
+        <item>Dinesh Karthik</item>
+        <item>Mitchell Starc</item>
+        <item>Ashok Dinda</item>
+    </string-array>
+
+    <string-array name="MumbaiIndians">
+        <item>Rohit Sharma</item>
+        <item>Ambati Rayadu</item>
+        <item>Parthiv Patel</item>
+        <item>Corey Anderson</item>
+        <item>Kieron Pollard</item>
+        <item>Aaron Finch</item>
+        <item>Unmukt Chand</item>
+        <item>Harbhajan Singh</item>
+        <item>Lasith Malinga</item>
+        <item>Vinaya Kumar</item>
+    </string-array>
+
+    <string-array name="SunrisersHyderabad">
+        <item>David Warner</item>
+        <item>Shikhar Dhawan</item>
+        <item>Kane Williamson</item>
+        <item>Yuvraj Singh</item>
+        <item>Naman Ojha</item>
+        <item>Ravi Bopara</item>
+        <item>Karan Sharma</item>
+        <item>Dale Steyn</item>
+        <item>Ishant Sharma</item>
+        <item>Trent Boult</item>
+    </string-array>
+
+    <string-array name="GujaratLions">
+        <item>Suresh Raina</item>
+        <item>Brendon Mccullum</item>
+        <item>Ravindra Jadeja</item>
+        <item>James Faulkner</item>
+        <item>Dwayne Bravo</item>
+        <item>Dhawal Kulkarni</item>
+        <item>Pravin Tambe</item>
+        <item>Tim Southee</item>
+    </string-array>
+
+    <string-array name="KingsXIPunjab">
+        <item>David Miller</item>
+        <item>Murali Viajay</item>
+        <item>George Bailey</item>
+        <item>Manan Vohara</item>
+        <item>Glen Maxwell</item>
+        <item>Virendar Sehwag</item>
+        <item>Rishi Dhawan</item>
+        <item>Thisara Perera</item>
+        <item>Mitchell Johnson</item>
+        <item>Sandeep Sharma</item>
+    </string-array>
+
+
+    <string-array name="Australia">
+        <item>David Warner</item>
+        <item>Aaron Finch</item>
+        <item>Steve Smith</item>
+        <item>Glen Maxwell</item>
+        <item>James Faulkner</item>
+        <item>Brad Haddin</item>
+        <item>Michael Clarke</item>
+        <item>Mitchell Johnson</item>
+        <item>Mitchell Starc</item>
+        <item>Nathan Lyon</item>
+    </string-array>
+
+
+    <string-array name="Bangladesh">
+        <item>Tamim Iqbal</item>
+        <item>Imrul Kayes</item>
+        <item>Soumya Sarkar</item>
+        <item>Shakib Al Hasan</item>
+        <item>Mushfiqur Rahim</item>
+        <item>Anamul Haque</item>
+        <item>Mahmudullah</item>
+        <item>Mashrafe Mortaza</item>
+        <item>Rubel Hossain</item>
+        <item>Taskin Ahmed</item>
+    </string-array>
+
+    <string-array name="Afganistan">
+        <item>Afsar Zazai</item>
+        <item>Sharafuddin Ashraf</item>
+        <item>Gulbadin Naib</item>
+        <item>Aftab Alam</item>
+        <item>Nawroz Mangal</item>
+        <item>Mohammad Nabi</item>
+        <item>Najibullah Zadran</item>
+        <item>Hamid Hassan</item>
+        <item>Shapoor Zadran</item>
+        <item>Dawlat Zadran</item>
+    </string-array>
+
+    <string-array name="England">
+        <item>Ben Stokes</item>
+        <item>Alex Hales</item>
+        <item>Moeen Ali</item>
+        <item>Joe Root</item>
+        <item>Jos Buttler</item>
+        <item>Gary Ballance</item>
+        <item>Ian Bell</item>
+        <item>Stuart Board</item>
+        <item>James Anderson</item>
+        <item>Tim Bresnan</item>
+    </string-array>
+
+    <string-array name="India">
+        <item>Shikhar Dhawan</item>
+        <item>Rohit Sharma</item>
+        <item>Virat Kohli</item>
+        <item>M.S. Dhoni</item>
+        <item>Yuvraj Singh</item>
+        <item>Suresh Raina</item>
+        <item>Ajinkya Rahane</item>
+        <item>R. Ashwin</item>
+        <item>Mohit Sharma</item>
+        <item>Umesh Yadav</item>
+    </string-array>
+
+    <string-array name="Nepal">
+        <item>Subash Khakurel</item>
+        <item>Sagar Pun</item>
+        <item>Gyanendra Malla</item>
+        <item>Parash Khadka</item>
+        <item>Binod Bhandari</item>
+        <item>Mehboob Alam</item>
+        <item>Basanta Regmi</item>
+        <item>Sompal Kami</item>
+        <item>Shakti Gauchan</item>
+        <item>Karan K.C</item>
+    </string-array>
+
+    <string-array name="Newzealand">
+        <item>Martin Guptil</item>
+        <item>Corey Anderson</item>
+        <item>Kane Willamson</item>
+        <item>Ross Taylor</item>
+        <item>Grant Elliot</item>
+        <item>Brendon McCullum</item>
+        <item>Luke Ronchi</item>
+        <item>Tim Southee</item>
+        <item>Daniel Vettori</item>
+        <item>Trent Boult</item>
+    </string-array>
+
+    <string-array name="Pakistan">
+        <item>Ahmed Shehzad</item>
+        <item>Sharfaraz Ahmed</item>
+        <item>Azhar Ali</item>
+        <item>Shahid Afridi</item>
+        <item>Umar Akmal</item>
+        <item>Sohaib Maqsood</item>
+        <item>Misbah Ul Haq</item>
+        <item>Wahab Riaz</item>
+        <item>Saeed Azmal</item>
+        <item>Sohail Khan</item>
+    </string-array>
+
+    <string-array name="SouthAfrica">
+        <item>Quinton De Kock</item>
+        <item>Faf Du Plesis</item>
+        <item>AB De Villiers</item>
+        <item>David Miller</item>
+        <item>JP Dumini</item>
+        <item>Hasim Amla</item>
+        <item>Morne Morkel</item>
+        <item>Dale Steyn</item>
+        <item>Imran Tahir</item>
+        <item>Wayne Parnell</item>
+    </string-array>
+
+
+    <string-array name="Srilanka">
+        <item>TM Dilshan</item>
+        <item>Upul Tharanga</item>
+        <item>L. Thirimanne</item>
+        <item>T. Parera</item>
+        <item>Angelo Mathews</item>
+        <item>D. Chandimal</item>
+        <item>K. Sangakkara</item>
+        <item>L. Malinga</item>
+        <item>M. Jayawardane</item>
+        <item>N. Kulasekara</item>
+    </string-array>
+</resources>
